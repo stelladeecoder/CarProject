@@ -8,7 +8,11 @@ public class CarProject {
     char condition = 'A';
 
     public void printVariables(){
-       System.out.println(maxSpeed);
+       System.out.println("The maximum speed of this car is: " + maxSpeed);
+        System.out.println("The minimum speed of this car is: " + minSpeed);
+        System.out.println("This car weighs " + weight + " pounds.");
+        System.out.println("The car is on: " + isTheCarOn);
+        System.out.println("The condition of this car is: " + condition);
     }
 
     public static void main(String[] args) {
