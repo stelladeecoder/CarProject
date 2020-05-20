@@ -6,7 +6,7 @@
 I created a family car. What happens when Stella drives the family car?
 
 In this lesson I learned about:
-1. Reference vs Primitive data types
+1. Reference data types vs Primitive data types
 2. Printing in the console
 3. Functions/Methods & Properties
 4. How to create classes, instances and different data types

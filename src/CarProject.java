@@ -15,10 +15,18 @@ public class CarProject {
         System.out.println("The condition of this car is: " + condition);
     }
 
+    public void wreckCar(){
+        condition = 'C';
+    }
+
     public static void main(String[] args) {
 // instance
         CarProject familyCar = new CarProject();
+       System.out.println("Family Car:");
         familyCar.printVariables();
-
+        CarProject stellaCar = familyCar;
+        familyCar.wreckCar();
+        System.out.println("Stella's Car:");
+        stellaCar.printVariables();
     }
 }
