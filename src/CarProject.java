@@ -6,6 +6,7 @@ public class CarProject {
     double weight = 4079;
     boolean isTheCarOn =false;
     char condition = 'A';
+    String nameOfCar = "Patty";
 
     public void printVariables(){
        System.out.println("The maximum speed of this car is: " + maxSpeed);
@@ -13,6 +14,7 @@ public class CarProject {
         System.out.println("This car weighs " + weight + " pounds.");
         System.out.println("The car is on: " + isTheCarOn);
         System.out.println("The condition of this car is: " + condition);
+        System.out.println("Stella named the family car: " + nameOfCar);
     }
 
     public void wreckCar(){
