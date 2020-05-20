@@ -25,3 +25,10 @@ In this lesson I learned about:
 6. Default
 7. Custom
 8. Mathematical Tools For Methods
+
+# Day 3: 
+In this lesson I learned the difference between a Class and Instance, conditional statements (If/Else), Inequalities
+
+1. Class = Blueprint with (Properties and Methods)
+2. Instance = An object created from the blueprint
+
