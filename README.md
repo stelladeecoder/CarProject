@@ -26,7 +26,7 @@ In this lesson I learned about:
 7. Custom
 8. Mathematical Tools For Methods
 
-# Day 3: 
+# Day 3: If-Statements
 In this lesson I learned the difference between a Class and Instance, conditional statements (If/Else), Inequalities
 
 1. Class = Blueprint with (Properties and Methods)
