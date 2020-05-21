@@ -33,6 +33,7 @@ public class CarProject {
         System.out.println("The car is on: " + isTheCarOn);
         System.out.println("The condition of this car is: " + condition);
         System.out.println("Stella named the family car: " + nameOfCar);
+        System.out.println( numberOfPeopleInCar + " People in the car");
     }
     //Stella got in a car accident
     public void wreckCar(){
@@ -62,15 +63,26 @@ public class CarProject {
     }
     // run the program
     public static void main(String[] args) {
-        System.out.println("Birthday Car");
         CarProject birthdayPresent = new CarProject(500,5000.5, true );
+        System.out.println("Birthday Car v1");
         birthdayPresent.printVariables();
+        birthdayPresent.getIn();
+        birthdayPresent.getIn();
+        birthdayPresent.getIn();
+        System.out.println("Miles Left: " + birthdayPresent.howManyMilesTillOutOfGas());
+        System.out.println("Max Miles: " + birthdayPresent.maxMilesPerFillUp());
 
-    System.out.println("My Car");
+        System.out.println("Birthday Car v2");
+        birthdayPresent.printVariables();
+        birthdayPresent.getOut();
+
+        System.out.println("Birthday Car v3");
+        birthdayPresent.printVariables();
+   /* System.out.println("My Car");
     CarProject myPresent = new CarProject(550, 2000, false);
     myPresent.printVariables();
 
-    // instance
+    //instance
 
         /*CarProject familyCar = new CarProject();
        System.out.println("Family Car:");
